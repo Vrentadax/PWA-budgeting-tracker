@@ -5,7 +5,7 @@ const compression = require("compression");
 
 /* This is the server.js file. It is setting up the server. */
 const PORT = process.env.PORT || 3001;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budgettracker";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
 
 const app = express();
 
